@@ -1,0 +1,10 @@
+server:
+  port: 8833
+spring:
+  application:
+    name: my-esCluster2
+#es http方式
+elasticsearch:
+  address: localhost:9204
+#  username: admin
+#  password: admin
