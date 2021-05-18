@@ -51,7 +51,7 @@ import java.util.concurrent.TimeUnit;
  * @Author: cl
  * @Date: 2020/08/21
  */
-@Api(value = "ES测试接口广泛广泛", tags = {"ES测试接口"})
+@Api(value = "ES测试接口广泛广泛b", tags = {"ES测试接口"})
 @RestController
 @RequestMapping("/es")
 @CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
