@@ -63,7 +63,7 @@ public class ESTestController {
     @Resource
     ESUtil esUtil;
 
-    @ApiOperation(value = "es测试创建索引接口s", notes = "es测试创建索引接口")
+    @ApiOperation(value = "es测试创建索引接口sasda", notes = "es测试创建索引接口")
     @RequestMapping(value = "/create/index", method = RequestMethod.POST)
     public ResponseBean createIndex(@RequestParam String indexName) {
         try {
