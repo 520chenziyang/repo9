@@ -84,7 +84,7 @@ public class ESTestController {
             CreateIndexResponse createIndexResponse = restHighLevelClient.indices().create(createIndexRequest, RequestOptions.DEFAULT);
             boolean acknowledged = createIndexResponse.isAcknowledged();
             if (acknowledged) {
-                return new ResponseBean(200, "创建成功", null);
+                return new ResponseBean(200, "创建成功s", null);
             } else {
                 return new ResponseBean(1002, "创建失败", null);
             }
